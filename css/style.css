@@ -1,0 +1,111 @@
+body {
+    font-family: monospace;
+    margin: 0px;
+    background-color: rgb(69, 69, 69);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    user-select: none;
+}
+
+.nav-bar {
+    background-color: rgb(46,46,46);
+    border: 1px solid rgb(46,46,46);
+    height: 60pt;
+    text-align: center;
+    
+}
+
+
+
+.logo {
+    width: 200pt;
+    margin-top: -70pt;
+}
+
+.options {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    height: 15pt;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: -28pt;
+}
+
+.nav > * {
+    padding:20pt ;
+}
+
+.nav p:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.new-features {
+    border: 1px solid rgb(56,56,56);
+    background-color: rgb(56,56,56);
+    height: 300pt;
+    width: 1120pt;
+    border-radius: 7px;
+    margin-left: 15pt;
+    margin-top: 15pt;
+    color: white;
+}
+
+.main-holder {
+    margin-left:20pt ;
+}
+
+.info-bar {
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 0%;
+    width: 1300pt;
+}
+
+.info-bar p {
+    margin-left: 10pt;
+}
+
+.in {
+    border-radius: 7px;
+    border: 2px solid rgb(46,46,46);
+    background-color: rgb(46,46,46);
+    margin: 10pt;
+    width: 1498px; 
+    height: 515px;
+    color: white;
+    font-size: x-large;
+}
+
+.sub {
+    color: white;
+    background-color: black;
+    width: 150pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    float: right;
+    margin-right:20pt;
+    margin-top: -100pt;
+    margin-left: 975pt;
+    z-index: 100;
+    position: absolute;
+}
+
+.sub:hover {
+    background-color: gray;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.sub:active {
+    background-color: white;
+    color: black;
+}
